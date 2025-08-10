@@ -1,0 +1,33 @@
+There are basically 4 number system 
+    1.Decimal
+    2.Binary
+    3.Octal
+    4.HexaDecimal
+
+Decimal with base 10
+Binary with base 2
+Octal with base 8
+HexaDecimal with base 16
+
+Decimal with 0 to 9 (0,1,2,3,4,5,6,7,8,9)
+Binary with 0 and 1 (0,1)
+Octal with 0 to 7 (0,1,2,3,4,5,6,7)
+HexaDecimal with 0 to 9 and A to F (0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F)
+
+Convert Decimal to Binary
+    1.Divide the number by 2
+    2.Take the remainder
+    3.Divide the quotient by 2
+    4.Take the remainder
+    5.Repeat the process until the quotient is 0
+    6.Write the remainders in reverse order
+    7.The remainders are the binary number
+
+Convert Binary to Decimal
+    1.Take the binary number
+    2.Multiply the rightmost digit by 2^0
+    3.Multiply the next digit by 2^1
+    4.Multiply the next digit by 2^2
+    5.Repeat the process until all the digits are multiplied
+    6.Add all the products
+    7.The sum is the decimal number
